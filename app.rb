@@ -6,11 +6,11 @@ get '/' do
 end
 
 get '/secret' do
-  "WHAAAAAASSSSAAAAAAAAP!!!"
+  "HEY DOOKIE, PICK UP YOUR PHONE!!!!   WHAAAAAASSSSAAAAAAAAP!!!"
 end
 
-get '/secret' do
-  "HEY DOOKIE, PICK UP YOUR PHONE"
+get '/cat' do
+  erb(:index)
 end
 
 set :session_secret, 'super secret'
